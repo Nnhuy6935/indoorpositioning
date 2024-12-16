@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/navigateGroup"
+        >
+        <Button
+            android:backgroundTint="@color/btnColor"
+            android:textColor="@color/btnTextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAddObj"
+            android:text="Object"
+            />
+        <Button
+            android:backgroundTint="@color/btnColor"
+            android:textColor="@color/btnTextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAddConcave"
+            android:text="Concave"/>
+        <Button
+            android:backgroundTint="@color/btnColor"
+            android:textColor="@color/btnTextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAddCurve"
+            android:text="Curve"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAddMix"
+            android:text="Mix"
+            android:backgroundTint="@color/btnColor"
+            android:textColor="@color/btnTextColor"
+            />
+        
+    </LinearLayout>
+
+
+    <com.example.indoorpositioning.map.MyGLSurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mapview"/>
+
+</LinearLayout>

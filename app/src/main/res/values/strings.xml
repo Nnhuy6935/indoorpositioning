@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IndoorPositioning</string>
+    <string name="change_color"><u> Change color... </u></string>
+</resources>
